@@ -19,7 +19,7 @@ describe('shuffle()', function () {
         });
 
         const random = function () {
-            return 0.323
+            return 0.37106724670716557
         }
 
         const shuffledDeck = shuffle(deck, random())
@@ -29,7 +29,7 @@ describe('shuffle()', function () {
     });
 
     it('should not lose or duplicate elements', function () {
-        const deck = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+        const deck = ['A', 'B', 'C', 'D', 'E', '1', '2', '3']
         const shuffledDeck = shuffle(deck)
 
         assert.includeMembers(deck, shuffledDeck, 'all of original elements should be included in output')
