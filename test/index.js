@@ -22,7 +22,7 @@ describe('shuffle()', function () {
             return 0.37106724670716557
         }
 
-        const shuffledDeck = shuffle(deck, random())
+        const shuffledDeck = shuffle(deck, random)
 
         assert.notDeepEqual(deck, shuffledDeck)
         assert.equal(deck.length, shuffledDeck.length)

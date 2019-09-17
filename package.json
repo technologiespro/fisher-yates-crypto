@@ -1,6 +1,6 @@
 {
   "name": "fisher-yates-crypto",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fisher-Yates Shuffle Implementation in JavaScript with cryptographically strong random number generator",
   "main": "index.js",
   "scripts": {
