@@ -1,0 +1,28 @@
+{
+  "name": "fisher-yates-crypto",
+  "version": "1.0.0",
+  "description": "Fisher-Yates Shuffle Implementation in JavaScript with cryptographically strong random number generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiespro/fisher-yates-crypto.git"
+  },
+  "keywords": [
+    "fisher",
+    "yates",
+    "crypto",
+    "shuffle"
+  ],
+  "author": "TechnoL0g",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technologiespro/fisher-yates-crypto/issues"
+  },
+  "homepage": "https://github.com/technologiespro/fisher-yates-crypto#readme",
+  "dependencies": {
+    "crypto-random": "^1.0.3"
+  }
+}
