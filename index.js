@@ -10,6 +10,6 @@ const shuffle = function(deck, random = Random.value()) {
     }
 
     return shuffled
-};
+}
 
 module.exports = shuffle
