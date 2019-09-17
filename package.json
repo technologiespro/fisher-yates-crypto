@@ -14,7 +14,8 @@
     "fisher",
     "yates",
     "crypto",
-    "shuffle"
+    "shuffle",
+    "array"
   ],
   "author": "TechnoL0g",
   "license": "MIT",
